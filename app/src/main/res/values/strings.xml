@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Halaman Admin</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="halaman_sumatra">Resep Sumatra</string>
+    <string name="halaman_jawa">Resep Jawa</string>
+    <string name="halaman_kalimantan">Resep Kalimantan</string>
+    <string name="halaman_sulawesi">Resep Sulawesi</string>
+    <string name="halaman_papua">Resep Papua</string>
+    <string name="nama_profile">Hello Admin</string>
+</resources>
