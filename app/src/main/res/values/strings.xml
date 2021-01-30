@@ -15,8 +15,8 @@
     <string name="jambi">Jambi</string>
     <string name="sumsel">Sumatera Selatan</string>
     <string name="bengkulu">Bengkulu</string>
-    <string name="bandarlampung">Bandar Lampung</string>
-    <string name="bangka">Bangka Belitung</string>
+    <string name="lampung">Bandar Lampung</string>
+    <string name="babel">Bangka Belitung</string>
     <string name="kepri">Kepulauan Riau</string>
     <string name="banten">Banten</string>
     <string name="jabar">Jawa Barat</string>
@@ -32,7 +32,8 @@
     <string name="kalsel">Kalimantan Selatan</string>
     <string name="kaltim">Kalimantan Timur</string>
     <string name="kalteng">Kalimantan Tengah</string>
-    <string name="pabar">Papua Utara</string>
+    <string name="pabar">Papua Barat</string>
+    <string name="papua">Papua</string>
     <string name="gorontalo">Gorontalo</string>
     <string name="sulbar">Sulawesi Barat</string>
     <string name="sulsel">Sulawesi Selatan</string>

@@ -1,19 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
+    android:background="@drawable/bg"
     tools:context=".HalamanSumatra">
 
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/txtjudul"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:background="@drawable/bg"
-        android:text="@string/halaman_sumatra"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="90dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/judul"
         android:textColor="@color/white"
-        android:textSize="30sp" />
-</RelativeLayout>
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/aceh"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="460dp"
+        android:backgroundTint="#ffdacc"
+        android:text="@string/aceh"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.100"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/sumut"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="460dp"
+        android:backgroundTint="#ffdacc"
+        android:text="@string/sumut"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.900"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/sumbar"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="360dp"
+        android:backgroundTint="#ffdacc"
+        android:text="@string/sumbar"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.100"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/riau"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="360dp"
+        android:backgroundTint="#ffdacc"
+        android:text="@string/riau"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.900"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bengkulu"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="260dp"
+        android:backgroundTint="#ffdacc"
+        android:text="@string/bengkulu"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.100"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kepri"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="260dp"
+        android:backgroundTint="#ffdacc"
+        android:text="@string/kepri"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.900"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/jambi"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="#ffdacc"
+        android:text="@string/jambi"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.100"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/sumsel"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="#ffdacc"
+        android:text="@string/sumsel"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.900"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/babel"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#ffdacc"
+        android:text="@string/babel"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.100"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/lampung"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#ffdacc"
+        android:text="@string/lampung"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.900"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
